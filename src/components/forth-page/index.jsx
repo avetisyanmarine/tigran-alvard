@@ -2,7 +2,7 @@ import { Container, Flexible } from "../../GlobalStyle";
 import { ForthPageBlock } from "./fortg-page-block";
 import AttendanceGuests from "../attendance/AttendanceGuests";
 import { ForthPagePart, ForthPagePartContext } from "./styled";
-import Church from "../../assets/image/church.jpeg";
+import Church from "../../assets/image/church.jpg";
 import Restaurant from "../../assets/image/restaurant.jpg";
 import Photo3 from "/wedding.jpg";
 import Bant from "../../assets/image/bant.png";
@@ -14,13 +14,13 @@ export const ForthPage = () => {
         <ForthPagePartContext>
           <ForthPageBlock
             ImageSrc={Church}
-            bigText={"Սուրբ Մարիամ Աստվածածին"}
-            mapSrc={"https://maps.app.goo.gl/vCrGmtiMMiCcEpN37"}
+            bigText={"Սաղմոսավանք"}
+            mapSrc={"https://maps.app.goo.gl/sz3hLJAiRQu8SB5h9"}
           />
           <ForthPageBlock
             ImageSrc={Restaurant}
-            bigText={"Վան Մյուզիք հոլլ"}
-            mapSrc={"https://maps.app.goo.gl/NiDCaqoHAJq8iQBv7"}
+            bigText={"Հրաշք Այգի Ռեստորան"}
+            mapSrc={"https://maps.app.goo.gl/tb4FBFpASx47b8Lx8"}
           />
         </ForthPagePartContext>
       </Container>
@@ -28,7 +28,7 @@ export const ForthPage = () => {
         <img
           src={Photo3}
           alt="Restaurant"
-          className="w-full my-10 mt-23 grayscale contrast-125 brightness-105"
+          className="w-full my-10 grayscale contrast-125 brightness-105"
         />
         <h1
           style={{

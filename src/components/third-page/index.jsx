@@ -19,7 +19,7 @@ export const ThirdPage = () => {
           <ThirdPageBlock
             imageSize={114}
             ImageSrc={Church}
-            number={"15:30"}
+            number={"14:20"}
             bigText="ՊՍԱԿԱԴՐՈՒԹՅՈՒՆ"
             smallText="Սուրբ Մարիամ Աստվածածին"
           />
@@ -29,7 +29,7 @@ export const ThirdPage = () => {
             imageSize={159}
             number={"17:00"}
             bigText="ՀԱՐՍԱՆՅԱՑ ՀԱՆԴԻՍՈՒԹՅՈՒՆ"
-            smallText="Վան Մյուզիք հոլլ"
+            smallText="Հրաշք Այգի Ռեստորան"
           />
         </ThirdPagePartContext>
         <ThirdPagePartMini>

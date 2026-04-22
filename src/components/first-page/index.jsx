@@ -26,7 +26,7 @@ export const FirstPage = () => {
                 textShadow: "2px 2px 6px rgba(0,0,0,0.7)",
               }}
             >
-              Դավիթ & Էլեն
+              Ռազ & Դիանա
             </h1>
             <img src={Srtik} className="absolute bottom-10" />
           </Flexible>
