@@ -1,7 +1,7 @@
 import { Container, Flexible } from "../../GlobalStyle";
 import { LastFooterPagePart, LastFooterPagePartContext } from "./styled";
 import PhoneSvg from "../../assets/vectors/Phone.svg";
-import InstagramSvg from "../../assets/vectors/insta.svg";
+// import InstagramSvg from "../../assets/vectors/instagram.svg";
 
 export const LastFooterPage = () => {
   return (
@@ -10,7 +10,7 @@ export const LastFooterPage = () => {
         <LastFooterPagePartContext>
           <p>Հրավիրատոմսը պատրաստվել է</p>
           <Flexible className="items-center justify-center gap-2 mt-4!">
-            <img loading="lazy" src={InstagramSvg} width={21} alt="instagram" />
+            {/* <img loading="lazy" src={InstagramSvg} width={21} alt="instagram" /> */}
             <a
               href="https://www.instagram.com/webinvite.am"
               target="_blank"
