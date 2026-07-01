@@ -3,10 +3,13 @@ import styled from "styled-components";
 const LastFooterPagePart = styled.div`
     color: #efefef;
     text-align: center;
+    padding: 20px 0;
 `
 const LastFooterPagePartContext = styled.div`
-    font-size: 20px;
-    
+    font-size: 18px;
+    > p {
+        margin-top: 28px;
+    }
     div {
         display: flex;
         justify-content: center;
@@ -14,7 +17,8 @@ const LastFooterPagePartContext = styled.div`
         gap: 10px;
         div {
             img {
-                border-right: 2px solid aliceblue;
+                padding: 11px;
+                border-right: 2px solid #fefefe;
                 /* border-radius: 50px; */
             }
             div {

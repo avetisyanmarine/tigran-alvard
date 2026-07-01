@@ -1,6 +1,10 @@
 import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+html {
+  overflow-x: hidden;
+
+}
 body {
   background-color: #EFEFEF;
   margin: 0;
@@ -14,30 +18,26 @@ body {
   }
   @font-face {
     font-family: 'ArmAllegrou';
-    src: url("/font/ArmAllegroU.ttf");
-    font-display: swap;
-  }
-  @font-face {
-    font-family: 'SaveTheDate';
-    src: url("/font/WhiteAngelica.ttf");
+    src: url("/font/ArmAllegroU.woff2") format("woff2");
     font-display: swap;
   }
   @font-face {
     font-family: "ArmenianDecorativeU-Italic";
-    src: url("/font/ArmenianDecorativeU-Italic.ttf");
+    src: url("/font/ArmenianDecorativeU-Italic.woff2") format("woff2");
     font-display: swap;
   }
   h3 {
     font-size: 24px;
   }
   h2 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 100;
   }
   h1 {
-    font-size: 42px;
+    font-size: 45px;
+    margin-bottom: 20px;
     font-family: ArmAllegrou;
-    color: #EFEFEF;
+    color: #fefefe;
     font-weight: 100;
   }
 `;

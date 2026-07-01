@@ -7,7 +7,6 @@ import { SecondPage } from "./components/second-page"
 import { ThirdPage } from "./components/third-page"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { BackToTop } from "./components/top-button"
 
 function App() {
   useEffect(() => {
@@ -23,7 +22,6 @@ function App() {
       <ThirdPage />
       <ForthPage />
       <LastFooterPage />
-      <BackToTop />
     </>
   )
 }

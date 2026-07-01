@@ -1,11 +1,13 @@
 import { Container, Flexible } from "../../GlobalStyle";
 import { ForthPageBlock } from "./fortg-page-block";
-import AttendanceGuests from "../attendance/AttendanceGuests";
 import { ForthPagePart, ForthPagePartContext } from "./styled";
-import Church from "../../assets/image/church.jpg";
-import Restaurant from "../../assets/image/restaurant.jpg";
-import Photo3 from "/wedding.jpg";
-import Bant from "../../assets/image/bant.png";
+import Church from "../../assets/image/church.webp";
+import Restaurant from "../../assets/image/restaurant.webp";
+import Photo1 from "../../assets/image/photo1.webp";
+import Photo2 from "../../assets/image/photo2.webp";
+import Photo3 from "../../assets/image/photo3.webp";
+import AttendanceGuests from "../AttendanceGuests";
+import SaveTheDate from "../../assets/image/savethedate.webp";
 
 export const ForthPage = () => {
   return (
@@ -23,37 +25,16 @@ export const ForthPage = () => {
             mapSrc={"https://maps.app.goo.gl/tb4FBFpASx47b8Lx8"}
           />
         </ForthPagePartContext>
-      </Container>
-      <div className="relative">
         <img
-          src={Photo3}
+          src={Photo1}
           alt="Restaurant"
-          className="w-full my-10 grayscale contrast-125 brightness-105"
+          className="w-full my-10 rounded-[15px]"
         />
-        <h1
-          style={{
-            fontFamily: "SaveTheDate", // Այստեղ համոզվեք, որ տառատեսակի անունը ճիշտ է
-            textAlign: "center",
-            color: "#1e1e1e",
-            fontSize: "2rem",
-            fontWeight: "800",
-            marginTop: "2.5rem",
-            position: "absolute",
-            textShadow: "2px 2px 6px rgba(193, 184, 184, 0.7)",
-            top: "-16px",
-            left: "50%",
-            transform: "translateX(-50%)",
-          }}
-        >
-          Save the Date
-        </h1>
-      </div>
-
+      </Container>
       <div className="text-center">
-        <h2>Դետալներ</h2>
-        <Flexible className="relative">
-          <img src={Bant} className="mx-auto my-8 grayscale" />
-          <Flexible className="absolute w-full h-[322px] bg-white/45 font-[600] px-20">
+        <h2 className="mb-10">Դետալներ</h2>
+        <Flexible>
+          <Flexible className="w-full h-[278px] bg-white/45 p-5! font-[600]">
             Ձեզ հետ բերեք ՍԵՐ, ժպիտներ ու անսահման դրական էմոցիաներ. ինչպես նաև
             հարմարավետ կոշիկներ` պարելու համար:
             <br />
@@ -63,7 +44,39 @@ export const ForthPage = () => {
           </Flexible>
         </Flexible>
       </div>
-      <AttendanceGuests />
+      <div className="text-center w-full">
+        <h2 style={{ margin: "20px 0" }}>Dress Code</h2>
+        <Flexible
+          style={{ padding: "0 25px" }}
+          data-aos="fade-up"
+          className="w-full h-[200px] font-[600] mb-5 bg-white/45"
+        >
+          Խնդրում ենք հարսանիքի օրը <br /> ԽՈՒՍԱՓԵԼ <br /> սպիտակ հագուստ
+          կրելուց
+          <br />
+          <br />
+          Մնացած բոլոր երանգները սազում են Ձեզ առավել քան երբևէ
+        </Flexible>
+      </div>
+      <Container>
+        <img
+          loading="lazy"
+          src={Photo2}
+          alt="photo2"
+          className="w-full mb-10 rounded-[15px]"
+        />
+        <AttendanceGuests />
+        <div className="relative my-10">
+          <img loading="lazy" src={Photo3} alt="Photo 3" className="rounded-[15px]" />
+          <img
+            className="absolute top-1.5 left-1.5 w-[100px] invert brightness-1 contrast-150"
+            src={SaveTheDate}
+            loading="lazy"
+            alt="Save The Date"
+          />
+        </div>
+        <h3 className="text-center">Սիրով՝ <br /> Ռազմիկ և Դիանա</h3>
+      </Container>
     </ForthPagePart>
   );
 };

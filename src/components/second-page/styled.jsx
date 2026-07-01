@@ -5,9 +5,6 @@ const SecondPagePart = styled.div`
   div {
     text-align: center;
   }
-  h2 {
-    font-size: 30px;
-  }
 `;
 
 const GridDiv = styled(Flexible)`

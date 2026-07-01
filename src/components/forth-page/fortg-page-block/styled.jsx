@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const ForthPageBlockPart = styled.div`
   text-align: center;
   h2 {
-    margin: 40px 0;
+    margin: 40px 0 20px 0;
+    font-size: 32px;
   }
   img {
     width: 100%;

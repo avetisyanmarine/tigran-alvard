@@ -8,7 +8,6 @@ export const ForthPageBlock = ({ ImageSrc, bigText, mapSrc }) => {
         <img
           loading="lazy"
           src={ImageSrc}
-          className="grayscale"
         />
         <Flexible>
           <svg
@@ -24,7 +23,7 @@ export const ForthPageBlock = ({ ImageSrc, bigText, mapSrc }) => {
             />
           </svg>
           <a
-            className="text-[23px] underline ml-2"
+            className="text-[20px] underline ml-2"
             href={mapSrc}
             target="_blank"
             rel="noopener noreferrer"

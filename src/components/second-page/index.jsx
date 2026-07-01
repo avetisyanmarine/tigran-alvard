@@ -1,7 +1,11 @@
 import { SecondPagePart, GridDiv } from "./styled";
 import { Container, Flexible } from "../../GlobalStyle";
 import { useEffect, useState } from "react";
-import Photo2 from "../../assets/image/examp2.jpg";
+import SerLiqySer from "../../assets/image/serliqyser.webp";
+import PhotoGroup1 from "../../assets/image/groupphoto1.webp";
+import PhotoGroup2 from "../../assets/image/groupphoto2.webp";
+import PhotoGroup3 from "../../assets/image/groupphoto3.webp";
+// import Photo2 from "../../assets/image/photo1.webp";
 import { ThirdPagePartCalendar } from "../third-page/styled";
 
 export const SecondPage = () => {
@@ -78,7 +82,7 @@ export const SecondPage = () => {
             </Flexible>
           </GridDiv>
         </div>
-        <h2 className="mt-10" data-aos="zoom-in" data-aos-offset="400">
+        <h2 className="mt-15" data-aos="zoom-in" data-aos-offset="400">
           Հոկտեմբեր
         </h2>
         <ThirdPagePartCalendar
@@ -104,8 +108,38 @@ export const SecondPage = () => {
             ),
           )}
         </ThirdPagePartCalendar>
+        <div
+          className="flex h-[100vh] gap-[20px] justify-around"
+          style={{ marginTop: "40px" }}
+        >
+          <img
+            loading="lazy"
+            src={SerLiqySer}
+            className="h-[80vh] w-[40%] mt-[20%]!"
+          />
+          <div className="flex flex-col gap-2 w-[60%]">
+            <img
+              src={PhotoGroup1}
+              loading="lazy"
+              alt="Հարսանյաց Նկար1"
+              className="h-1/3 object-cover rounded-[10px]"
+            />
+            <img
+              src={PhotoGroup2}
+              loading="lazy"
+              alt="Հարսանյաց Նկար2"
+              className="h-1/3 object-cover rounded-[10px]"
+            />
+            <img
+              src={PhotoGroup3}
+              loading="lazy"
+              alt="Հարսանյաց Նկար3"
+              className="h-1/3 object-cover rounded-[10px]"
+            />
+          </div>
+        </div>
       </Container>
-      <div className="mt-10 mb-15">
+      <div className="my-10">
         <h2
           className="mb-10"
           // data-aos="fade-up"
@@ -119,7 +153,7 @@ export const SecondPage = () => {
           </p>
         </Flexible>
       </div>
-      <img src={Photo2} className="w-full grayscale" />
+      {/* <img src={Photo2} className="w-full" /> */}
     </SecondPagePart>
   );
 };

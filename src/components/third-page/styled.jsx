@@ -14,18 +14,16 @@ const ThirdPagePartContext = styled.div`
 const ThirdPagePartMini = styled.div`
   text-align: center;
   h3 {
-    letter-spacing: 9px;
+    font-family: ArmAllegrou;
     font-weight: 200;
-    font-size: 18px;
+    font-size: 40px;
+    letter-spacing: 2px;
     margin: 30px 0;
-    &:nth-child(1) {
-      margin-top: 100px;
-    }
   }
   hr {
     width: 195px;
     margin: auto;
-    background: #1E1E1E;
+    background: #1e1e1e;
     border: 0;
     height: 2px;
     border-radius: 50px;
@@ -52,7 +50,7 @@ const ThirdPagePartCalendar = styled.div`
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      background-image: url("/heart.png");
+      background-image: url("/heart.webp");
       background-size: cover;
       z-index: -1;
     }

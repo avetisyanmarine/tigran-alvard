@@ -24,7 +24,7 @@ export const ThirdPageBlock = ({
           <h3>{bigText}</h3>
           <p>{smallText}</p>
         </ThirdPagePartContext>
-        {!line && <img src={Arrow} className="mb-5" />}
+        {!line && <img src={Arrow} loading="lazy" className="mt-5 mb-10" />}
       </ThirdPageBlockPart>
     </>
   );
