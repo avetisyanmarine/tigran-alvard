@@ -1,7 +1,7 @@
 import { Container, Flexible } from "../../GlobalStyle";
 import { LastFooterPagePart, LastFooterPagePartContext } from "./styled";
 import PhoneSvg from "../../assets/vectors/Phone.svg";
-import InstagramSvg from "../../assets/vectors/instagram.svg";
+import InstagramSvg from "../../assets/vectors/insta.svg";
 
 export const LastFooterPage = () => {
   return (
