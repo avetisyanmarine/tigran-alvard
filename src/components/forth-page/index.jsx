@@ -37,10 +37,6 @@ export const ForthPage = () => {
           <Flexible className="w-full h-[278px] bg-white/45 p-5! font-[600]">
             Ձեզ հետ բերեք ՍԵՐ, ժպիտներ ու անսահման դրական էմոցիաներ. ինչպես նաև
             հարմարավետ կոշիկներ` պարելու համար:
-            <br />
-            <br />
-            Հարսի պարի և հրավառության ընթացքում կխնդրենք ծնողներին ուշադիր լինել
-            իրենց բալիկների նկատմամբ:
           </Flexible>
         </Flexible>
       </div>
@@ -67,7 +63,12 @@ export const ForthPage = () => {
         />
         <AttendanceGuests />
         <div className="relative my-10">
-          <img loading="lazy" src={Photo3} alt="Photo 3" className="rounded-[15px]" />
+          <img
+            loading="lazy"
+            src={Photo3}
+            alt="Photo 3"
+            className="rounded-[15px]"
+          />
           <img
             className="absolute top-1.5 left-1.5 w-[100px] invert brightness-1 contrast-150"
             src={SaveTheDate}
@@ -75,7 +76,9 @@ export const ForthPage = () => {
             alt="Save The Date"
           />
         </div>
-        <h3 className="text-center">Սիրով՝ <br /> Ռազմիկ և Դիանա</h3>
+        <h3 className="text-center">
+          Սիրով՝ <br /> Ռազմիկ և Դիանա
+        </h3>
       </Container>
     </ForthPagePart>
   );
