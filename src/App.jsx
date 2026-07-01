@@ -8,15 +8,14 @@ import { ThirdPage } from "./components/third-page"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-function App() {
+function App ({isOpened}) {
   useEffect(() => {
-    AOS.init({ duration: 700, once: true });
-
+    AOS.init({ duration: 2000, once: true, easing: "ease-in-out" });
   }, []);
 
   return (
     <>
-      <MusicPage />
+      <MusicPage isOpened={isOpened} />
       <FirstPage />
       <SecondPage />
       <ThirdPage />
