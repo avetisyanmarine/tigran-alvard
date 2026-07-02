@@ -34,7 +34,7 @@ export const ForthPage = () => {
       <div className="text-center">
         <h2 className="mb-10">Դետալներ</h2>
         <Flexible>
-          <Flexible className="w-full h-[150px] bg-white/45 p-5! font-[600]">
+          <Flexible className="w-full h-[280px] bg-white/45 p-5! font-[600]">
             Ձեզ հետ բերեք ՍԵՐ, ժպիտներ ու անսահման դրական էմոցիաներ. ինչպես նաև
             հարմարավետ կոշիկներ` պարելու համար:
             <br />
