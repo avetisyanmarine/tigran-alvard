@@ -22,6 +22,7 @@ export const ThirdPage = () => {
             number={"12:00"}
             bigText="ՀԱՐՍԻ ՏՈՒՆ"
             smallText="գյուղ Մրգաստան փող․ 19, տուն 6"
+            link={"https://maps.app.goo.gl/5yivC4QDbv5KeioY9?g_st=it"}
           />
             <ThirdPageBlock
               imageSize={114}
@@ -36,6 +37,7 @@ export const ThirdPage = () => {
             number={"15:30"}
             bigText="ՓԵՍԱՅԻ ՏՈՒՆ"
             smallText="գյուղ Մրգաստան փող․ 2, տուն 5"
+            link={"https://maps.app.goo.gl/ngeb2iVHYXUBGcy27?g_st=it"}
           />
           <ThirdPageBlock
             line={true}
