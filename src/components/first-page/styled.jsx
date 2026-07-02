@@ -12,7 +12,7 @@ const FirstPagePart = styled.div`
         width: 100%;
         height: 100%;
         object-fit: cover;
-        /* filter: grayscale(30%); */
+        filter: grayscale(90%);
     }
 `
 const FirstPagePartContext = styled.div`

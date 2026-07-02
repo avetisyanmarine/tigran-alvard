@@ -16,13 +16,13 @@ export const ForthPage = () => {
         <ForthPagePartContext>
           <ForthPageBlock
             ImageSrc={Church}
-            bigText={"Սաղմոսավանք"}
-            mapSrc={"https://maps.app.goo.gl/sz3hLJAiRQu8SB5h9"}
+            bigText={"Սուրբ Հռիփսիմե Եկեղեցի"}
+            mapSrc={"https://maps.app.goo.gl/Utzcj1VzekTbWXGw6"}
           />
           <ForthPageBlock
             ImageSrc={Restaurant}
-            bigText={"Հրաշք Այգի Ռեստորան"}
-            mapSrc={"https://maps.app.goo.gl/tb4FBFpASx47b8Lx8"}
+            bigText={"Արև Ռեստորան"}
+            mapSrc={"https://maps.app.goo.gl/N1qFkdTTDtP9G7Xa9"}
           />
         </ForthPagePartContext>
         <img
@@ -70,14 +70,14 @@ export const ForthPage = () => {
             className="rounded-[15px]"
           />
           <img
-            className="absolute top-1.5 left-1.5 w-[100px] invert brightness-1 contrast-150"
+            className="absolute top-1.5 left-1.5 w-[110px] invert brightness-1 contrast-150"
             src={SaveTheDate}
             loading="lazy"
             alt="Save The Date"
           />
         </div>
         <h3 className="text-center">
-          Սիրով՝ <br /> Ռազմիկ և Դիանա
+          Սիրով՝ <br /> Տիգրան և Ալվարդ
         </h3>
       </Container>
     </ForthPagePart>

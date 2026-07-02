@@ -96,7 +96,7 @@ const AttendanceGuests = () => {
 
     try {
       await fetch(
-        "https://script.google.com/macros/s/AKfycbxx2tHISJtmmCrdmwLiw2sYd5n3kSb38xVh2xvuDsVYJ_sEnVe2eHndfLdgaVs2V8wqMw/exec",
+        "https://script.google.com/macros/s/AKfycbylYHPsnKu6bOW9zY3qyL4nQSW7x4WVnW9Sii1chlJiU0OJEIMN1ImwJa6FsqPRV1oL/exec",
         {
           method: "POST",
           mode: "no-cors",
@@ -144,7 +144,7 @@ const AttendanceGuests = () => {
       {/* Header */}
       <Header>
         <h3>Հրավերի պատասխան</h3>
-        <p>Խնդրում ենք հաստատել Ձեր մասնակցությունը</p>
+        <p>Խնդրում ենք հաստատել Ձեր մասնակցությունը մինչև 20․07․2026</p>
       </Header>
 
       {message.text && (

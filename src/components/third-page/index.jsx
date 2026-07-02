@@ -6,6 +6,7 @@ import {
 } from "./styled";
 import { Container } from "../../GlobalStyle";
 import Church from "../../assets/image/church.png";
+import Haverjutyun from "../../assets/image/haverjutyun.webp";
 import Kenac from "../../assets/image/kenac.png";
 import { ThirdPageBlock } from "./third-page-block";
 
@@ -17,18 +18,32 @@ export const ThirdPage = () => {
         <ThirdPagePartContext>
           <ThirdPageBlock
             imageSize={114}
-            ImageSrc={Church}
-            number={"14:20"}
-            bigText="ՊՍԱԿԱԴՐՈՒԹՅՈՒՆ"
-            smallText="Սաղմոսավանք"
+            ImageSrc={Haverjutyun}
+            number={"12:00"}
+            bigText="ՀԱՐՍԻ ՏՈՒՆ"
+            smallText="գյուղ Մրգաստան փող․ 19, տուն 6"
+          />
+            <ThirdPageBlock
+              imageSize={114}
+              ImageSrc={Church}
+              number={"14:00"}
+              bigText="ՊՍԱԿԱԴՐՈՒԹՅՈՒՆ"
+              smallText="Սուրբ Հռիփսիմե եկեղեցի"
+            />
+          <ThirdPageBlock
+            imageSize={114}
+            ImageSrc={Haverjutyun}
+            number={"15:30"}
+            bigText="ՓԵՍԱՅԻ ՏՈՒՆ"
+            smallText="գյուղ Մրգաստան փող․ 2, տուն 5"
           />
           <ThirdPageBlock
             line={true}
             ImageSrc={Kenac}
             imageSize={149}
-            number={"17:00"}
+            number={"17:30"}
             bigText="ՀԱՐՍԱՆՅԱՑ ՀԱՆԴԻՍՈՒԹՅՈՒՆ"
-            smallText="Հրաշք Այգի Ռեստորան"
+            smallText="Արև Ռեստորան"
           />
         </ThirdPagePartContext>
         <ThirdPagePartMini>

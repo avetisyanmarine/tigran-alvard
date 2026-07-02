@@ -9,7 +9,7 @@ import PhotoGroup3 from "../../assets/image/groupphoto3.webp";
 import { ThirdPagePartCalendar } from "../third-page/styled";
 
 export const SecondPage = () => {
-  const weddingDate = new Date(2026, 9, 23, 0, 0, 0);
+  const weddingDate = new Date(2026, 7, 6, 0, 0, 0);
 
   const calculateTimeLeft = () => {
     const now = new Date();
@@ -83,7 +83,7 @@ export const SecondPage = () => {
           </GridDiv>
         </div>
         <h2 className="mt-15" data-aos="zoom-in" data-aos-offset="400">
-          Հոկտեմբեր
+          Օգոստոս
         </h2>
         <ThirdPagePartCalendar
           data-aos="fade-up"
@@ -101,8 +101,8 @@ export const SecondPage = () => {
             </div>
           ))}
           {[...Array(37)].map((_, i) =>
-            i > 2 && i <= 33 ? (
-              <div className={i - 5 == 20 ? "special" : ""}>{i - 2}</div>
+            i > 4 && i <= 35 ? (
+              <div className={i - 4 == 6 ? "special" : ""}>{i - 4}</div>
             ) : (
               <div className=""></div>
             ),
@@ -153,7 +153,6 @@ export const SecondPage = () => {
           </p>
         </Flexible>
       </div>
-      {/* <img src={Photo2} className="w-full" /> */}
     </SecondPagePart>
   );
 };
