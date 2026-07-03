@@ -37,7 +37,7 @@ export const ThirdPage = () => {
             number={"15:30"}
             bigText="ՓԵՍԱՅԻ ՏՈՒՆ"
             smallText="գյուղ Մրգաստան փող․ 2, տուն 5"
-            link={"https://maps.app.goo.gl/ngeb2iVHYXUBGcy27?g_st=it"}
+            link={"https://maps.app.goo.gl/XiFjYYvqT7uCvfik9?g_st=it"}
           />
           <ThirdPageBlock
             line={true}
